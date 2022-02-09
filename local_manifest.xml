@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+ <remote name="dangi-del"
+          fetch="https://github.com/dangi-del"/>
 
- <!-- Trees -->
- <project path="device/mido/G" name="dangi-del/android_device_mido_G.git" remote="github" revision="lineage-18.1" />
- <project path="device/mido/msm8953-common" name="dangi-del/android_device_mido_msm8953-common.git" remote="github" revision="lineage-18.1" />
- <project path="vendor/mido" name="dangi-del/android_vendor_mido.git" remote="github" revision="master" />
- <project path="kernel/mido/G" name="dangi-del/android_kernel_mido_G-4.9.git" remote="github" revision="lineage-18.1" />
+     
+
+
+
+<project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="dangi-del" revision="Pe_mido" />
+ <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="dangi-del" revision="main" />
+ <project path="kernel/xiaomi/mido" name="kernel_mido" remote="dangi-del" revision="normal" />
+
+
+
  
 </manifest>
