@@ -7,7 +7,7 @@
 
 
 
-<project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="dangi-del" revision="Pe_mido" />
+<project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="dangi-del" revision="Pdk" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="dangi-del" revision="main" />
  <project path="kernel/xiaomi/mido" name="kernel_mido" remote="dangi-del" revision="normal" />
 
